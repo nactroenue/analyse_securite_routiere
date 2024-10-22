@@ -11,7 +11,7 @@ def main():
     DBAPI = 'psycopg2'
     HOTE = 'localhost'
     UTILISATEUR = 'postgres'
-    MOT_DE_PASSE = ''  # Remplacer par votre mot de passe
+    MOT_DE_PASSE = ''
     PORT = 5432
     BASE_DONNEES = 'postgres'
 
