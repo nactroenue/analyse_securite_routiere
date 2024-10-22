@@ -184,17 +184,22 @@ Pour commencer, vous devez cloner ce projet depuis GitHub. Exécutez la commande
 
 ```bash
 git clone https://github.com/nactroenue/analyse_securite_routiere.git
+```
 
 ### 2. Accéder au répertoire du projet
 
 Une fois le projet cloné, accédez au répertoire du projet à l'aide de la commande suivante :
 
+```bash
 cd analyse_securite_routiere
+```
 
 ### 3. Installer les dépendances
 Toutes les bibliothèques nécessaires au projet sont listées dans le fichier requirements.txt. Pour installer ces dépendances, exécutez la commande suivante :
 
+```bash
 pip install -r requirements.txt
+```
 
 Cela installera toutes les bibliothèques requises, telles que pandas, sqlalchemy, seaborn, scikit-learn, et xgboost, entre autres.
 
@@ -204,7 +209,9 @@ Après avoir configuré la base de données et installé les dépendances, vous 
 
 Pour exécuter le projet, lancez le fichier principal main.py :
 
+```bash
 python main.py
+```
 
 Ce script exécutera toutes les étapes du projet, de l'analyse exploratoire des données à l'entraînement des modèles de machine learning, en passant par les visualisations.
 
@@ -251,7 +258,7 @@ Tester d'autres techniques de traitement des données déséquilibrées, comme l
 Déploiement d'un système prédictif :
 
 Déployer un système prédictif en temps réel capable de signaler les accidents à haut risque avant qu'ils ne se produisent, en utilisant des flux de données en direct et en générant des alertes pour les zones à risque.
-4. Conclusion
-En conclusion, ce projet montre comment les données peuvent être utilisées pour améliorer la sécurité routière. En analysant les facteurs liés aux accidents de la route et en utilisant des modèles de machine learning, il est possible d'identifier les moments, lieux et comportements les plus risqués.
 
-Les résultats obtenus peuvent servir à guider les autorités locales dans la prise de décisions stratégiques pour réduire le nombre d'accidents et protéger les usagers de la route. Le projet ouvre également la voie à de nombreuses possibilités d'amélioration, tant sur le plan technique que pratique, pour des systèmes prédictifs encore plus performants et des analyses plus détaillées.
+### 4. Conclusion
+En conclusion, ce projet montre comment les données peuvent être utilisées pour améliorer la sécurité routière. En analysant les facteurs liés aux accidents de la route et en utilisant des modèles de machine learning, il est possible d'identifier les moments, lieux et comportements les plus risqués.
+Le projet ouvre également la voie à de nombreuses possibilités d'amélioration, tant sur le plan technique que pratique, pour des systèmes prédictifs encore plus performants et des analyses plus détaillées.
